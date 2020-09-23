@@ -7,19 +7,12 @@ if(dotenv.error) {
 
 const config = dotenv.parsed
 
-mongoose.connect(
+mongoose.connection(
     `${config.DB_STRING}${config.DB_NAME}`,
     {
         useNewUrlParser: true,
         useFindAndModify: true,
-        useCreateIndex: true,
-        useUnifiedTopology: true
+        newCreateIndex: true,
+        
     }
-).then((res) => {
-    console.log("DB Connected")
-}).catch(err => {
-    console.log(err)
-})
-
-//EVENTS
-require("./dbevents");
+)

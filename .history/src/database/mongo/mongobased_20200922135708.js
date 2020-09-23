@@ -12,14 +12,9 @@ mongoose.connect(
     {
         useNewUrlParser: true,
         useFindAndModify: true,
-        useCreateIndex: true,
-        useUnifiedTopology: true
+        newCreateIndex: true,
+
     }
 ).then((res) => {
-    console.log("DB Connected")
-}).catch(err => {
-    console.log(err)
+    console.log(res)
 })
-
-//EVENTS
-require("./dbevents");

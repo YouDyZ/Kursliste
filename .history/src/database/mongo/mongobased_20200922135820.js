@@ -12,7 +12,7 @@ mongoose.connect(
     {
         useNewUrlParser: true,
         useFindAndModify: true,
-        useCreateIndex: true,
+        newCreateIndex: true,
         useUnifiedTopology: true
     }
 ).then((res) => {
@@ -20,6 +20,3 @@ mongoose.connect(
 }).catch(err => {
     console.log(err)
 })
-
-//EVENTS
-require("./dbevents");

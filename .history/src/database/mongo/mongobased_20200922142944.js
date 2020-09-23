@@ -22,4 +22,4 @@ mongoose.connect(
 })
 
 //EVENTS
-require("./dbevents");
+require("./dbevents")

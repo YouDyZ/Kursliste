@@ -45,6 +45,7 @@
     }
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "electron-squirrel-startup": "^1.0.0",
     "mongoose": "^5.10.6"
   },

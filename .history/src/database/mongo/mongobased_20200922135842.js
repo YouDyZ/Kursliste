@@ -20,6 +20,3 @@ mongoose.connect(
 }).catch(err => {
     console.log(err)
 })
-
-//EVENTS
-require("./dbevents");
