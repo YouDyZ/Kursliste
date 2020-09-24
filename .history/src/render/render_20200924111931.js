@@ -25,5 +25,5 @@ function emitAddUser() {
     let leader = 'ich';
 
     //console.log();
-    ipcRenderer.send('database:courses:create', name, date, hr, min, leader);
+    //ipcRenderer.send('database:courses:create', name, date, hr, min, leader);
 }

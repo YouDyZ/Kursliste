@@ -1,16 +1,10 @@
 const { ipcMain } = require('electron');
 const { Course, Leaders, Members, Users } = require('./modules/exports');
-//name, date, hr, min, leader
-ipcMain.on('database:courses:create', (event, name, date, hr, min, leader) => {
-    console.log(date);
-    Course.create({
-        name: name,
-        date: date,
-        timeHr: hr,
-        timeMin: min,
-        leader: leader,
-    })
-        .then((res) => {
+
+ipcMain.on('database:courses:create', (event, name, date, leader) => {
+    console.log(event);
+    Course.create({ name: name, date: date, leader: leader })
+        .then((date) => {
             console.log(res);
         })
         .catch((err) => {

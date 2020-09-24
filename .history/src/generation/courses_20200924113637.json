@@ -1,0 +1,66 @@
+{
+    "monday": [
+        {
+            "name": "Step",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Frank"
+        },
+        {
+            "name": "bodyART",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Nezar"
+        },
+        {
+            "name": "BodyPower",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "René"
+        },
+        {
+            "name": "Pilates",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Nezar"
+        },
+        {
+            "name": "RückenFIT",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Nezar"
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "WS-Gymnastik",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Peggy"
+        },
+        {
+            "name": "WS-Gymnastik",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Peggy"
+        },
+        {
+            "name": "Yoga",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Steven"
+        },
+        {
+            "name": "Bauch-Beine-Po",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Nezar"
+        },
+        {
+            "name": "Step",
+            "startHr": "9",
+            "startMin": "30",
+            "leader": "Nezar"
+        }
+    ]
+}

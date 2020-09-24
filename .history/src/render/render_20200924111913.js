@@ -16,7 +16,7 @@ function getDayName(date) {
 function emitAddUser() {
     let name = 'test';
     let date = new Date();
-    console.log(getDayName(date));
+    console.log(getDayName());
     let hr = date.getHours();
     let min = date.getMinutes();
     date = `${date.getDay()}. ${date.getMonth()}. ${date.getFullYear()}`;
@@ -25,5 +25,5 @@ function emitAddUser() {
     let leader = 'ich';
 
     //console.log();
-    ipcRenderer.send('database:courses:create', name, date, hr, min, leader);
+    //ipcRenderer.send('database:courses:create', name, date, hr, min, leader);
 }

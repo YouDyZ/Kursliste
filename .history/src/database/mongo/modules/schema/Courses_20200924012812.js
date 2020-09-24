@@ -11,7 +11,7 @@ module.exports = new mongoose.Schema({
         required: [true, 'Der Kurs benötigt einen Namen!'],
     },
     date: {
-        type: String,
+        type: Date,
         required: [true, 'Das Datum für den Kurs fehlt!'],
     },
     timeHr: {

@@ -1,0 +1,29 @@
+{
+    "monday": [
+        {
+            "name": "Step",
+            "startTime": "9:30",
+            "leader": "Frank"
+        },
+        {
+            "name": "bodyART",
+            "startTime": "10:40",
+            "leader": "Nezar"
+        },
+        {
+            "name": "BodyPower",
+            "startTime": "17:00",
+            "leader": "Rene"
+        },
+        {
+            "name": "Pilates",
+            "startTime": "18:05",
+            "leader": "Nezar"
+        },
+        {
+            "name": "RückenFIT",
+            "startTime": "19:05",
+            "leader": "Nezar"
+        }
+    ]
+}

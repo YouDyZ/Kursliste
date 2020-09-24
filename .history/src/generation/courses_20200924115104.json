@@ -1,0 +1,124 @@
+{
+    "monday": [
+        {
+            "name": "Step",
+            "startHr": 9,
+            "startMin": 30,
+            "leader": "Frank"
+        },
+        {
+            "name": "bodyART",
+            "startHr": 10,
+            "startMin": 40,
+            "leader": "Nezar"
+        },
+        {
+            "name": "BodyPower",
+            "startHr": 17,
+            "startMin": 0,
+            "leader": "René"
+        },
+        {
+            "name": "Pilates",
+            "startHr": 18,
+            "startMin": 5,
+            "leader": "Nezar"
+        },
+        {
+            "name": "RückenFIT",
+            "startHr": 19,
+            "startMin": 5,
+            "leader": "Nezar"
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "WS-Gymnastik",
+            "startHr": 8,
+            "startMin": 15,
+            "leader": "Peggy"
+        },
+        {
+            "name": "WS-Gymnastik",
+            "startHr": 9,
+            "startMin": 20,
+            "leader": "Peggy"
+        },
+        {
+            "name": "Yoga",
+            "startHr": 18,
+            "startMin": 30,
+            "leader": "Steven"
+        },
+        {
+            "name": "Bauch-Beine-Po",
+            "startHr": 9,
+            "startMin": 30,
+            "leader": "Andrea"
+        },
+        {
+            "name": "Step",
+            "startHr": 9,
+            "startMin": 30,
+            "leader": "Andrea"
+        }
+    ],
+    "wednesday": [
+        {
+            "name": "WS-Gymnastik",
+            "startHr": 9,
+            "startMin": 55,
+            "leader": "Corinna"
+        },
+        {
+            "name": "Bauch-Beine-Po",
+            "startHr": 17,
+            "startMin": 40,
+            "leader": "Dirk"
+        },
+        {
+            "name": "Zumba",
+            "startHr": 19,
+            "startMin": 0,
+            "leader": "Ilyan"
+        },
+        {
+            "name": "RückenFIT",
+            "startHr": 20,
+            "startMin": 0,
+            "leader": "Ilka"
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Dance",
+            "startHr": 9,
+            "startMin": 35,
+            "leader": "Sarah"
+        },
+        {
+            "name": "Workout",
+            "startHr": 10,
+            "startMin": 35,
+            "leader": "Sarah"
+        },
+        {
+            "name": "Pilates",
+            "startHr": 17,
+            "startMin": 30,
+            "leader": "Helen"
+        },
+        {
+            "name": "Bauch-Beine-po",
+            "startHr": 18,
+            "startMin": 30,
+            "leader": "Frank"
+        },
+        {
+            "name": "Bauch-Beine-po",
+            "startHr": 18,
+            "startMin": 30,
+            "leader": "Frank"
+        }
+    ]
+}
