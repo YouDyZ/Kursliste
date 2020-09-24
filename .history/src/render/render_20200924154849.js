@@ -32,7 +32,7 @@ ipcRenderer.on('database:course:error:addLeader', (event, data) => {
     console.log(data);
 });
 
-ipcRenderer.on('database:course:created:leader', (event, leader) => {
+ipcRenderer.on('database:course:added:Leader', (event, leader) => {
     console.log('leader: ' + leader);
 });
 

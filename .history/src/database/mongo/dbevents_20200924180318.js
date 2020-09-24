@@ -67,25 +67,25 @@ function courseExist(event, course) {
         course.timeHr == undefined ||
         course.timeMin == undefined
     ) {
-        event.reply('database:courses:addWaitingList:error', 'admin Error');
+        event.reply(
+            'database:courses:addWaitingList:error',
+            'administratial Error'
+        );
         return false;
-    } else {
-        Course.find({
-            name: course.name,
-            date: course.date,
-            timeHr: course.timeHr,
-            timeMin: course.timeMin,
-        }).then((res) => {
-            if (res.length != 0) {
-                return false;
-            } else {
-                return true;
-            }
-        });
     }
+    Course.find({
+        name: course.name,
+        date: course.date,
+        timeHr: course.timeHr,
+        timeMin: course.timeMin,
+    }).then((res) => {
+        if (res.length != 0) {
+            return false;
+        } else {
+            return true;
+        }
+    });
 }
-
-function courseCheckAndImplement() {}
 
 ipcMain.on('database:courses:addWaitingList', (event, courses, member) => {
     //TODO Check Teilnehmer < 18 -> Durchgang else
@@ -114,7 +114,6 @@ ipcMain.on('database:courses:addWaitingList', (event, courses, member) => {
                         'expected Courses'
                     );
                 } else {
-                    event.reply('database:courses:startImplement', courses);
                     courses.forEach((course) => courseExist(event, course));
                 }
             }
