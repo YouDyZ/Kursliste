@@ -85,8 +85,6 @@ function courseExist(event, course) {
     }
 }
 
-function courseCheckAndImplement() {}
-
 ipcMain.on('database:courses:addWaitingList', (event, courses, member) => {
     //TODO Check Teilnehmer < 18 -> Durchgang else
     if (member.number == undefined) {
@@ -114,7 +112,6 @@ ipcMain.on('database:courses:addWaitingList', (event, courses, member) => {
                         'expected Courses'
                     );
                 } else {
-                    event.reply('database:courses:startImplement', courses);
                     courses.forEach((course) => courseExist(event, course));
                 }
             }

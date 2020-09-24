@@ -114,7 +114,6 @@ ipcMain.on('database:courses:addWaitingList', (event, courses, member) => {
                         'expected Courses'
                     );
                 } else {
-                    event.reply('database:courses:startImplement', courses);
                     courses.forEach((course) => courseExist(event, course));
                 }
             }
